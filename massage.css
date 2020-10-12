@@ -1,0 +1,94 @@
+  a:link {
+    color: #474848;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #474848;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color:#505555;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: #CFECEC;
+    text-decoration: underline;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e6cdb8;
+    opacity: 0.5;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:#474848;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #f7f2dc;
+  }
+
+  body {
+    background-color: #e2be9f; }
+  
+  html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    min-height: 100%;
+    font-family: 'Georgia', serif;
+    color: #474848; }
+  
+  p {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: medium;
+      padding: 10px;
+  }
+
+
+
+.body-height {
+    height: 100%;
+    min-width: 320px; 
+}
+
+.boxtop {
+    display: flex;
+    align-items: flex-end;  
+    justify-content: flex-end;
+}
+
+.content {
+    background-color: #fce5d6;
+    display: block;
+    padding: 16px;
+    border-radius: 25px;
+    align-items: center
+}
+
+.icon-facebook {
+    height: 30px;
+    width: 30px;
+}
+
+.image-responsive {
+    height: 100%;
+    width: 200px;
+    float: right;
+    margin: 10px;
+}
