@@ -52,36 +52,38 @@
         <p>
             <a href="tel:7039299062"><strong>(703) 929-9062</strong></a>
         </p>
-        <form method="POST" name="contactform" action="contact.php"> 
-<p>
-<label for='name'>Your Name:</label> <br>
-<input type="text" name="name">
-</p>
-<p>
-<label for='email'>Email Address:</label> <br>
-<input type="text" name="email"> <br>
-</p>
-<p>
-<label for='message'>Message:</label> <br>
-<textarea name="message"></textarea>
-</p>
-<input type="submit" value="Submit"><br>
-</form>
+       
+    <form method="POST" name="contactform" action="contact.php"> 
+        <p>
+            <label for='name'>Your Name:</label> <br>
+            <input type="text" name="name">
+        </p>
 
-<script language="JavaScript">
-// Code for validating the form
-// Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
-// for details
-var frmvalidator  = new Validator("contactform");
-frmvalidator.addValidation("name","req","Please provide your name"); 
-frmvalidator.addValidation("email","req","Please provide your email"); 
-frmvalidator.addValidation("email","email","Please enter a valid email address"); 
-</script>
+        <p>
+            <label for='email'>Email Address:</label> <br>
+            <input type="text" name="email"> <br>
+        </p>
+
+        <p>
+            <label for='message'>Message:</label> <br>
+            <textarea name="message"></textarea>
+        </p>
+
+        <input type="submit" value="Submit"><br>
+    </form>
+
+    <script language="JavaScript">
+    // Code for validating the form
+    // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+    // for details
+    var frmvalidator  = new Validator("contactform");
+    frmvalidator.addValidation("name","req","Please provide your name"); 
+    frmvalidator.addValidation("email","req","Please provide your email"); 
+    frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+    </script>
 
     </div>
 </div>
-
-
 
 </body>
 </html>
